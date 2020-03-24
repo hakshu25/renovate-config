@@ -6,7 +6,8 @@
   "author": "flyhighair <flyhighup.air25@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "renovate-config-validator"
+    "test": "renovate-config-validator",
+    "release": "semantic-release"
   },
   "renovate-config": {
     "default": {
@@ -37,6 +38,7 @@
     }
   },
   "devDependencies": {
-    "renovate": "19.176.2"
+    "renovate": "19.176.2",
+    "semantic-release": "^17.0.4"
   }
 }

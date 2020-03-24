@@ -1,0 +1,23 @@
+name: Publish npm package
+on:
+  push:
+    branches:
+      - master
+jobs:
+  release:
+    name: check version, add tag and release
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - name: install
+        run: yarn --frozen-lockfile
+      - name: publish
+        run: yarn release
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

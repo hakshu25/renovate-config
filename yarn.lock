@@ -980,10 +980,10 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-4.1.1.tgz#9fd602bd936294e9e9ef46a3f4d6964044b18068"
-  integrity sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==
+commander@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-5.0.0.tgz#dbf1909b49e5044f8fdaf0adc809f0c0722bdfd0"
+  integrity sha512-JrDGPAKjMGSP1G0DUoaceEJ3DZgAfr/q6X7FVk4+U5KxUSKviYGM2k6zWkfyyBHy5rAtzgYJFa1ro2O9PtoxwQ==
 
 commander@~2.20.3:
   version "2.20.3"
@@ -2559,7 +2559,7 @@ js-tokens@^4.0.0:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
-js-yaml@3.13.1, js-yaml@^3.4.2:
+js-yaml@3.13.1:
   version "3.13.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
   integrity sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==
@@ -3022,7 +3022,7 @@ lodash.without@~4.4.0:
   resolved "https://registry.yarnpkg.com/lodash.without/-/lodash.without-4.4.0.tgz#3cd4574a00b67bae373a94b748772640507b7aac"
   integrity sha1-PNRXSgC2e643OpS3SHcmQFB7eqw=
 
-lodash@4.17.15, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4:
+lodash@4.17.15, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
@@ -3511,10 +3511,10 @@ node-gyp@^5.0.2, node-gyp@^5.1.0:
     tar "^4.4.12"
     which "^1.3.1"
 
-node-html-parser@1.2.15:
-  version "1.2.15"
-  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-1.2.15.tgz#279a126a12f6ab230a85a1edecc24deb92340f6c"
-  integrity sha512-zhNRvdoqmbUgxp37Db4og9BchxV3I05Vd5d8vEG9bg8oG1UxLraRurvne2mdFkv5obSKRoTRRW2B/l7TFud6tA==
+node-html-parser@1.2.16:
+  version "1.2.16"
+  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-1.2.16.tgz#009ffb38915a8aed01693bec2e39933aeb7f6aba"
+  integrity sha512-TrLpGov7J9hBdWWREudBreragmRPq2Q5b19Ly66XoZVUZbb8JXkIqHkPbTHKicuVC8jNnkP4bRnNVik4mkPahw==
   dependencies:
     he "1.1.1"
 
@@ -4778,10 +4778,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@19.205.3:
-  version "19.205.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.205.3.tgz#ccb466de051ebdf544d71e2ac3758bf9a72a2333"
-  integrity sha512-zA2CZ5Eq1a/+Qp7Fb8tRKCZ66QB7fG4+IztFyqr+BrgC+zUEhqkU83uCWm+s9ypCQucEbmLOAn5lgF5C7oN6KA==
+renovate@19.212.2:
+  version "19.212.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.212.2.tgz#f5bda246ecfda16dbc1175ad49f046520d1cf768"
+  integrity sha512-OdkZD5IiJQY5FDpoqhwSNRr4o1L/2hi7FBm2Jwu3LgMNPnydaeeoJwwbvIPsR5o7Dbok6EKc9KtcopR4idO3AA==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@sindresorhus/is" "2.1.0"
@@ -4794,7 +4794,7 @@ renovate@19.205.3:
     chalk "4.0.0"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
-    commander "4.1.1"
+    commander "5.0.0"
     conventional-commits-detector "1.0.2"
     convert-hrtime "3.0.0"
     deepmerge "4.2.2"
@@ -4825,14 +4825,14 @@ renovate@19.205.3:
     moment "2.24.0"
     moment-timezone "0.5.28"
     node-emoji "1.10.0"
-    node-html-parser "1.2.15"
+    node-html-parser "1.2.16"
     npm "6.14.4"
     p-all "2.1.0"
     parse-diff "0.7.0"
     parse-link-header "1.0.1"
     pnpm "3.8.1"
     registry-auth-token "4.1.1"
-    semver "7.2.1"
+    semver "7.3.0"
     semver-stable "3.0.0"
     semver-utils "1.1.4"
     shortid "2.2.15"
@@ -4845,7 +4845,6 @@ renovate@19.205.3:
     www-authenticate "0.6.2"
     xmldoc "1.1.2"
     yarn "1.22.4"
-    yawn-yaml "1.5.0"
   optionalDependencies:
     re2 "1.10.5"
 
@@ -5090,10 +5089,10 @@ semver-utils@1.1.4:
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
   integrity sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==
 
-semver@7.2.1:
-  version "7.2.1"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.2.1.tgz#d997aa36bdbb00b501ae4ac4c7d17e9f7a587ae5"
-  integrity sha512-aHhm1pD02jXXkyIpq25qBZjr3CQgg8KST8uX0OWXch3xE6jw+1bfbWnCjzMwojsTquroUmKFHNzU6x26mEiRxw==
+semver@7.3.0:
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.0.tgz#91f7c70ec944a63e5dc7a74cde2da375d8e0853c"
+  integrity sha512-uyvgU/igkrMgNHwLgXvlpD9jEADbJhB0+JXSywoO47JgJ6c16iau9F9cjtc/E5o0PoqRYTiTIAPRKaYe84z6eQ==
 
 semver@^6.0.0, semver@^6.3.0:
   version "6.3.0"
@@ -6157,11 +6156,6 @@ yallist@^4.0.0:
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 
-yaml-js@^0.1.3:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/yaml-js/-/yaml-js-0.1.5.tgz#a01369010b3558d8aaed2394615dfd0780fd8fac"
-  integrity sha1-oBNpAQs1WNiq7SOUYV39B4D9j6w=
-
 yaml@^1.7.2:
   version "1.8.3"
   resolved "https://registry.yarnpkg.com/yaml/-/yaml-1.8.3.tgz#2f420fca58b68ce3a332d0ca64be1d191dd3f87a"
@@ -6256,12 +6250,3 @@ yarn@1.22.4:
   version "1.22.4"
   resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.22.4.tgz#01c1197ca5b27f21edc8bc472cd4c8ce0e5a470e"
   integrity sha512-oYM7hi/lIWm9bCoDMEWgffW8aiNZXCWeZ1/tGy0DWrN6vmzjCXIKu2Y21o8DYVBUtiktwKcNoxyGl/2iKLUNGA==
-
-yawn-yaml@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/yawn-yaml/-/yawn-yaml-1.5.0.tgz#95fba7544d5375fce3dc84514f12218ed0d2ebcb"
-  integrity sha512-sH2zX9K1QiWhWh9U19pye660qlzrEAd5c4ebw/6lqz17LZw7xYi7nqXlBoVLVtc2FZFXDKiJIsvVcKGYbLVyFQ==
-  dependencies:
-    js-yaml "^3.4.2"
-    lodash "^4.17.11"
-    yaml-js "^0.1.3"

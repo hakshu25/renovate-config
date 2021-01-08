@@ -39,7 +39,7 @@
     }
   },
   "devDependencies": {
-    "renovate": "24.11.3",
+    "renovate": "24.12.3",
     "semantic-release": "17.3.1"
   }
 }

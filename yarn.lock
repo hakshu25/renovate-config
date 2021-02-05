@@ -1567,10 +1567,10 @@ git-up@^4.0.0:
     is-ssh "^1.3.0"
     parse-url "^5.0.0"
 
-git-url-parse@11.4.3:
-  version "11.4.3"
-  resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-11.4.3.tgz#1610284edf1f14964180f5b3399ec68b692cfd87"
-  integrity sha512-LZTTk0nqJnKN48YRtOpR8H5SEfp1oM2tls90NuZmBxN95PnCvmuXGzqQ4QmVirBgKx2KPYfPGteX3/raWjKenQ==
+git-url-parse@11.4.4:
+  version "11.4.4"
+  resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-11.4.4.tgz#5d747debc2469c17bc385719f7d0427802d83d77"
+  integrity sha512-Y4o9o7vQngQDIU9IjyCmRJBin5iYjI5u9ZITnddRZpD7dcCFQj2sL2XuMNbLRE4b4B/4ENPsp2Q8P44fjAZ0Pw==
   dependencies:
     git-up "^4.0.0"
 
@@ -2151,10 +2151,10 @@ json-stringify-safe@^5.0.1, json-stringify-safe@~5.0.1:
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
   integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
 
-json5@2.1.3:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/json5/-/json5-2.1.3.tgz#c9b0f7fa9233bfe5807fe66fcf3a5617ed597d43"
-  integrity sha512-KXPvOm8K9IJKFM0bmdn8QXh7udDh1g/giieX0NLCaMnb4hEiVFqnop2ImTXCc5e0/oHz3LTqmHGtExn5hfMkOA==
+json5@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.0.tgz#2dfefe720c6ba525d9ebd909950f0515316c89a3"
+  integrity sha512-f+8cldu7X/y7RAJurMEJmdoKXGB/X550w2Nr3tTbezL6RwEE/iMcm+tZnXeoZtKuOq6ft8+CqzEkrIgx1fPoQA==
   dependencies:
     minimist "^1.2.5"
 
@@ -3323,10 +3323,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@24.32.0:
-  version "24.32.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.32.0.tgz#23fc26c45d2380b98d4152d543f7739c36415533"
-  integrity sha512-HCea+Pq1h5FDiBLfNRe9mkRM93gmlnchGVayIiYcXdt7ZHYgKJa1GJRx6c31i18ggmCADQE9xDRElJqFnTLijQ==
+renovate@24.39.3:
+  version "24.39.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.39.3.tgz#d818b7ba50e8da5c7e5473b81b167501bdec237d"
+  integrity sha512-PCc4jzEjMVhqg71Xs7QumphEIAz6nGAOl4hozIk+Szr1MCSDhOtT7ZYv9LsWHVr8m0ZBKaUtiiQ5jD72EOABdg==
   dependencies:
     "@breejs/later" "4.0.2"
     "@iarna/toml" "2.2.5"
@@ -3353,7 +3353,7 @@ renovate@24.32.0:
     fast-safe-stringify "2.0.7"
     find-up "5.0.0"
     fs-extra "9.1.0"
-    git-url-parse "11.4.3"
+    git-url-parse "11.4.4"
     github-url-from-git "1.5.0"
     global-agent "2.1.12"
     got "11.8.1"
@@ -3366,7 +3366,7 @@ renovate@24.32.0:
     jsdom "16.4.0"
     json-dup-key-validator "1.0.2"
     json-stringify-pretty-compact "2.0.0"
-    json5 "2.1.3"
+    json5 "2.2.0"
     linkify-markdown "1.0.0"
     luxon "1.25.0"
     markdown-it "12.0.3"

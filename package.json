@@ -34,7 +34,12 @@
           ],
           "automerge": true
         }
-      ]
+      ],
+      "node": {
+        "supportPolicy": [
+          "lts_latest"
+        ]
+      }
     }
   },
   "devDependencies": {

@@ -2,7 +2,7 @@ name: Publish npm package
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   release:
     name: check version, add tag and release

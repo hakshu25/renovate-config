@@ -46,6 +46,6 @@
     "@commitlint/cli": "13.1.0",
     "@commitlint/config-conventional": "13.1.0",
     "husky": "7.0.2",
-    "renovate": "27.14.0"
+    "renovate": "27.19.0"
   }
 }

@@ -27,14 +27,16 @@
       "patch": {
         "automerge": true
       },
-      "packageRules": [
-        {
-          "matchDepTypes": [
-            "devDependencies"
-          ],
-          "automerge": true
-        }
-      ],
+      "minor": {
+        "packageRules": [
+          {
+            "matchDepTypes": [
+              "devDependencies"
+            ],
+            "automerge": true
+          }
+        ]
+      },
       "node": {
         "supportPolicy": [
           "lts_latest"

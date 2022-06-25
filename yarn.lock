@@ -2478,6 +2478,13 @@ debug@^4.1.1:
   dependencies:
     ms "^2.1.1"
 
+debug@^4.3.4:
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
+  integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
+  dependencies:
+    ms "2.1.2"
+
 decamelize-keys@^1.0.0, decamelize-keys@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/decamelize-keys/-/decamelize-keys-1.1.0.tgz#d171a87933252807eb3cb61dc1c1445d078df2d9"
@@ -4918,10 +4925,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@32.97.0:
-  version "32.97.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.97.0.tgz#4d10d2c6db90fe94720162b0dabe87e3fb036351"
-  integrity sha512-C6TjlKnjyl3p4Y3dk7L2uVHIvdygzOn/YHTntX4xGsI8Xj1Qz2CqdS7qdgTgCFhqUS61/XQ2Wo5vNvaPwE0gQw==
+renovate@32.99.1:
+  version "32.99.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.99.1.tgz#e436bb68d048ecbaf3a807b66f79703d15956e02"
+  integrity sha512-VU600DeNM8Ug5N7ZNDvFFVPy+0rr5D+1MS2EeCVc4l8Y89xG7Q3W+OADaDD87rEduaTU4sEtiYUmZfP1dc8dxg==
   dependencies:
     "@aws-sdk/client-ec2" "3.72.0"
     "@aws-sdk/client-ecr" "3.72.0"
@@ -4994,7 +5001,7 @@ renovate@32.97.0:
     semver-stable "3.0.0"
     semver-utils "1.1.4"
     shlex "2.1.0"
-    simple-git "3.7.1"
+    simple-git "3.8.0"
     slugify "1.6.5"
     traverse "0.6.6"
     tslib "2.4.0"
@@ -5241,14 +5248,14 @@ signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
-simple-git@3.7.1:
-  version "3.7.1"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.7.1.tgz#cb85c59da4da3d69792d206dd28cfbd803941fac"
-  integrity sha512-+Osjtsumbtew2y9to0pOYjNzSIr4NkKGBg7Po5SUtjQhaJf2QBmiTX/9E9cv9rmc7oUiSGFIB9e7ys5ibnT9+A==
+simple-git@3.8.0:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.8.0.tgz#d93500f3d792cec365420c80ddc6cb782edf737d"
+  integrity sha512-nbR1PufcbvCaW90CiAXC1mM7OnEqLzjSOnySnq7Sd2kcVG6GxSa+DhxhFmCgxLv4kWCKmZagkCZSjfNAQTZwaw==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
-    debug "^4.3.3"
+    debug "^4.3.4"
 
 slash@^3.0.0:
   version "3.0.0"

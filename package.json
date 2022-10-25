@@ -48,6 +48,6 @@
     "@commitlint/cli": "17.1.2",
     "@commitlint/config-conventional": "17.1.0",
     "husky": "8.0.1",
-    "renovate": "32.241.11"
+    "renovate": "33.2.2"
   }
 }

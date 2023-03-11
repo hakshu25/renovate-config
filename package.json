@@ -38,11 +38,7 @@
           }
         ]
       },
-      "node": {
-        "supportPolicy": [
-          "lts_latest"
-        ]
-      }
+      "node": {}
     }
   },
   "devDependencies": {

@@ -6,7 +6,8 @@
   "author": "flyhighair <flyhighup.air25@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "renovate-config-validator"
+    "test": "yarn renovate-config-validator",
+    "prepare": "husky install"
   },
   "renovate-config": {
     "default": {
@@ -49,5 +50,8 @@
     "@commitlint/config-conventional": "17.4.4",
     "husky": "8.0.3",
     "renovate": "34.160.0"
+  },
+  "volta": {
+    "node": "18.15.0"
   }
 }

@@ -13,9 +13,11 @@ jobs:
       - name: setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '14.x'
+          node-version: '18.x'
       - name: install
         run: yarn --frozen-lockfile
+        env:
+          HUSKY: 0
       - name: publish
         run: npx semantic-release
         env:

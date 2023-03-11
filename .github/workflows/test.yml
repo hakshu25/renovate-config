@@ -20,3 +20,5 @@ jobs:
         run: |
           yarn --frozen-lockfile
           yarn test
+        env:
+          HUSKY: 0

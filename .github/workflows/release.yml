@@ -16,6 +16,8 @@ jobs:
           node-version: '14.x'
       - name: install
         run: yarn --frozen-lockfile
+        env:
+          HUSKY: 0
       - name: publish
         run: npx semantic-release
         env:

@@ -6,7 +6,8 @@
   "author": "flyhighair <flyhighup.air25@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "renovate-config-validator"
+    "test": "renovate-config-validator",
+    "prepare": "husky install"
   },
   "renovate-config": {
     "default": {

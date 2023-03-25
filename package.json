@@ -45,7 +45,7 @@
     "@commitlint/cli": "17.5.0",
     "@commitlint/config-conventional": "17.4.4",
     "husky": "8.0.3",
-    "renovate": "35.20.0"
+    "renovate": "35.22.1"
   },
   "volta": {
     "node": "18.15.0"

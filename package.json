@@ -1,9 +1,9 @@
 {
-  "name": "@flyhighair/renovate-config",
+  "name": "@hakshu25/renovate-config",
   "version": "0.0.1",
   "main": "none",
-  "repository": "https://github.com/flyhighair/renovate-config.git",
-  "author": "flyhighair <flyhighup.air25@gmail.com>",
+  "repository": "https://github.com/hakshu25/renovate-config.git",
+  "author": "hakshu25 <hakshu25@gmail.com>",
   "license": "MIT",
   "scripts": {
     "test": "yarn renovate-config-validator",
@@ -19,8 +19,7 @@
         "every weekend"
       ],
       "assignees": [
-        "flyhighair",
-        "hakshu"
+        "hakshu25"
       ],
       "labels": [
         "renovate"

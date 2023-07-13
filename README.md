@@ -1,14 +1,14 @@
 # renovate-config
 
-flyhighair's renovate config
+hakshu's renovate config
 
 ## Usage
 
-Add `@flyhighair` to `extends` in `renovate.json` of the project you want to use like the following example.
+Add `github>hakshu25/renovate-config` to `extends` in `renovate.json` of the project you want to use like the following example.
 
 ```json
 {
-  "extends": ["@flyhighair"]
+  "extends": ["github>hakshu25/renovate-config"]
 }
 ```
 

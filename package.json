@@ -12,7 +12,7 @@
   "renovate-config": {
     "default": {
       "extends": [
-        "config:base"
+        "config:recommended"
       ],
       "timezone": "Asia/Tokyo",
       "schedule": [
@@ -36,8 +36,7 @@
             "automerge": true
           }
         ]
-      },
-      "node": {}
+      }
     }
   },
   "devDependencies": {

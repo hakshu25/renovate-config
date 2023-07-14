@@ -12,7 +12,7 @@
   "renovate-config": {
     "default": {
       "extends": [
-        "config:base"
+        "config:recommended"
       ],
       "timezone": "Asia/Tokyo",
       "schedule": [
@@ -36,15 +36,14 @@
             "automerge": true
           }
         ]
-      },
-      "node": {}
+      }
     }
   },
   "devDependencies": {
     "@commitlint/cli": "17.6.6",
     "@commitlint/config-conventional": "17.6.6",
     "husky": "8.0.3",
-    "renovate": "35.159.7"
+    "renovate": "36.8.3"
   },
   "volta": {
     "node": "18.16.1"

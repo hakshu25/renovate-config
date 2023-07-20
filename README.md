@@ -14,4 +14,4 @@ Add `github>hakshu25/renovate-config` to `extends` in `renovate.json` of the pro
 
 ## Note
 
-Renovate settings are described in package.json.
+Renovate settings are described in default.json.

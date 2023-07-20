@@ -3,11 +3,11 @@
     "config:recommended",
     ":assignee(hakshu25)",
     ":automergePatch",
-    ":automergeTypes"
+    ":automergeTypes",
+    ":label(renovate)"
   ],
   "timezone": "Asia/Tokyo",
   "schedule": ["every weekend"],
-  "labels": ["renovate"],
   "minor": {
     "packageRules": [
       {

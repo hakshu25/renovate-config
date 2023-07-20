@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "config:recommended",
+    ":assignee(hakshu25)",
+    ":automergePatch",
+    ":automergeTypes",
+    ":label(renovate)",
+    ":maintainLockFilesMonthly"
+  ],
+  "timezone": "Asia/Tokyo",
+  "schedule": ["every weekend"],
+  "minor": {
+    "packageRules": [
+      {
+        "matchDepTypes": ["devDependencies"],
+        "automerge": true
+      }
+    ]
+  }
+}

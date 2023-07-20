@@ -1,5 +1,10 @@
 {
-  "extends": ["config:recommended", ":assignee(hakshu25)", ":automergePatch"],
+  "extends": [
+    "config:recommended",
+    ":assignee(hakshu25)",
+    ":automergePatch",
+    ":automergeTypes"
+  ],
   "timezone": "Asia/Tokyo",
   "schedule": ["every weekend"],
   "labels": ["renovate"],

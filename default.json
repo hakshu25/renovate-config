@@ -4,7 +4,8 @@
     ":assignee(hakshu25)",
     ":automergePatch",
     ":automergeTypes",
-    ":label(renovate)"
+    ":label(renovate)",
+    ":maintainLockFilesMonthly"
   ],
   "timezone": "Asia/Tokyo",
   "schedule": ["every weekend"],

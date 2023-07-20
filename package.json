@@ -9,36 +9,6 @@
     "test": "yarn renovate-config-validator",
     "prepare": "husky install"
   },
-  "renovate-config": {
-    "default": {
-      "extends": [
-        "config:recommended"
-      ],
-      "timezone": "Asia/Tokyo",
-      "schedule": [
-        "every weekend"
-      ],
-      "assignees": [
-        "hakshu25"
-      ],
-      "labels": [
-        "renovate"
-      ],
-      "patch": {
-        "automerge": true
-      },
-      "minor": {
-        "packageRules": [
-          {
-            "matchDepTypes": [
-              "devDependencies"
-            ],
-            "automerge": true
-          }
-        ]
-      }
-    }
-  },
   "devDependencies": {
     "@commitlint/cli": "17.6.6",
     "@commitlint/config-conventional": "17.6.6",

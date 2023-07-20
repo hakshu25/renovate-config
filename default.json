@@ -1,0 +1,18 @@
+{
+  "extends": ["config:recommended"],
+  "timezone": "Asia/Tokyo",
+  "schedule": ["every weekend"],
+  "assignees": ["hakshu25"],
+  "labels": ["renovate"],
+  "patch": {
+    "automerge": true
+  },
+  "minor": {
+    "packageRules": [
+      {
+        "matchDepTypes": ["devDependencies"],
+        "automerge": true
+      }
+    ]
+  }
+}

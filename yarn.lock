@@ -1278,17 +1278,10 @@
   resolved "https://registry.yarnpkg.com/@one-ini/wasm/-/wasm-0.1.1.tgz#6013659736c9dbfccc96e8a9c2b3de317df39323"
   integrity sha512-XuySG1E38YScSJoMlqovLru4KTUNSjgVTIjyh7qMX6aNN5HY5Ct5LhRJdxO79JtTzKfzV/bnWpz+zquYrISsvw==
 
-"@opentelemetry/api-logs@0.48.0":
+"@opentelemetry/api-logs@0.48.0", "@opentelemetry/api-logs@^0.48.0":
   version "0.48.0"
   resolved "https://registry.yarnpkg.com/@opentelemetry/api-logs/-/api-logs-0.48.0.tgz#9521a0c1e920ed536f31cda117164c4afff44caf"
   integrity sha512-1/aMiU4Eqo3Zzpfwu51uXssp5pzvHFObk8S9pKAiXb1ne8pvg1qxBQitYL1XUiAMEXFzgjaidYG2V6624DRhhw==
-  dependencies:
-    "@opentelemetry/api" "^1.0.0"
-
-"@opentelemetry/api-logs@^0.46.0":
-  version "0.46.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/api-logs/-/api-logs-0.46.0.tgz#25b407de1c2b238a103789d750f6469a43a4f08c"
-  integrity sha512-+9BcqfiEDGPXEIo+o3tso/aqGM5dGbGwAkGVp3FPpZ8GlkK1YlaKRd9gMVyPaeRATwvO5wYGGnCsAc/sMMM9Qw==
   dependencies:
     "@opentelemetry/api" "^1.0.0"
 
@@ -1320,13 +1313,13 @@
     "@opentelemetry/resources" "1.21.0"
     "@opentelemetry/sdk-trace-base" "1.21.0"
 
-"@opentelemetry/instrumentation-bunyan@0.34.1":
-  version "0.34.1"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-bunyan/-/instrumentation-bunyan-0.34.1.tgz#7454f55193acea801e1cca7d0d388501d7161162"
-  integrity sha512-+eshbCFr2dkUYO2jCpbYGFC5hs94UCOsQRK1XqNOjeiNvQRtqvKYqk8ARwJBYBX+aW4J02jOliAHQUh/d7gYPg==
+"@opentelemetry/instrumentation-bunyan@0.35.0":
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-bunyan/-/instrumentation-bunyan-0.35.0.tgz#e92cca447455704d5a059aeecc79337df76023fe"
+  integrity sha512-bQ8OzV7nVTA+oGiTzLjUmRFAbnXi0U/Z4VJCpj+1DRsaAaMT17eRpAOh22LQR0JBnv2vBm8CvIQl4CcAnsB46g==
   dependencies:
-    "@opentelemetry/api-logs" "^0.46.0"
-    "@opentelemetry/instrumentation" "^0.46.0"
+    "@opentelemetry/api-logs" "^0.48.0"
+    "@opentelemetry/instrumentation" "^0.48.0"
     "@types/bunyan" "1.8.9"
 
 "@opentelemetry/instrumentation-http@0.48.0":
@@ -1339,21 +1332,10 @@
     "@opentelemetry/semantic-conventions" "1.21.0"
     semver "^7.5.2"
 
-"@opentelemetry/instrumentation@0.48.0":
+"@opentelemetry/instrumentation@0.48.0", "@opentelemetry/instrumentation@^0.48.0":
   version "0.48.0"
   resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation/-/instrumentation-0.48.0.tgz#a6dee936e973f1270c464657a55bb570807194aa"
   integrity sha512-sjtZQB5PStIdCw5ovVTDGwnmQC+GGYArJNgIcydrDSqUTdYBnMrN9P4pwQZgS3vTGIp+TU1L8vMXGe51NVmIKQ==
-  dependencies:
-    "@types/shimmer" "^1.0.2"
-    import-in-the-middle "1.7.1"
-    require-in-the-middle "^7.1.1"
-    semver "^7.5.2"
-    shimmer "^1.2.1"
-
-"@opentelemetry/instrumentation@^0.46.0":
-  version "0.46.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation/-/instrumentation-0.46.0.tgz#a8a252306f82e2eace489312798592a14eb9830e"
-  integrity sha512-a9TijXZZbk0vI5TGLZl+0kxyFfrXHhX6Svtz7Pp2/VBlCSKrazuULEyoJQrOknJyFWNMEmbbJgOciHCCpQcisw==
   dependencies:
     "@types/shimmer" "^1.0.2"
     import-in-the-middle "1.7.1"
@@ -2182,16 +2164,16 @@
   dependencies:
     "@types/node" "*"
 
-"@yarnpkg/core@4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/core/-/core-4.0.2.tgz#7ffdcc1fb27542fb17c0824d4460a28bdc1f94de"
-  integrity sha512-YSibU3htZ3ZyslCUCG0aI4xcnmPZwZnHSUYl8TgC/Ck3++9xr474Mzh3t4Zv8olh9BguMC7FmRSpKAThiaFafw==
+"@yarnpkg/core@4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/core/-/core-4.0.3.tgz#626f2d19de8c9f8bcb95799fa92e9d9ccea2e31e"
+  integrity sha512-O+WGCjB9aIBxdRMBxXdsIy08MW4RbxfCS2AfywWb8DPS9H0LICahUJgNAaE0fwCsW7/gNzQbLYlh9DQQwzONrA==
   dependencies:
     "@arcanis/slice-ansi" "^1.1.1"
     "@types/semver" "^7.1.0"
     "@types/treeify" "^1.0.0"
-    "@yarnpkg/fslib" "^3.0.1"
-    "@yarnpkg/libzip" "^3.0.0"
+    "@yarnpkg/fslib" "^3.0.2"
+    "@yarnpkg/libzip" "^3.0.1"
     "@yarnpkg/parsers" "^3.0.0"
     "@yarnpkg/shell" "^4.0.0"
     camelcase "^5.3.1"
@@ -2214,14 +2196,14 @@
     tslib "^2.4.0"
     tunnel "^0.0.6"
 
-"@yarnpkg/fslib@^3.0.0", "@yarnpkg/fslib@^3.0.1", "@yarnpkg/fslib@^3.0.2":
+"@yarnpkg/fslib@^3.0.0", "@yarnpkg/fslib@^3.0.2":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@yarnpkg/fslib/-/fslib-3.0.2.tgz#a1fdcbb16c1986a9a9c037d2bbe82f3fcb3bb674"
   integrity sha512-dqSpZCj9ZeqMZzITHvpi5qKS9MCLWZYCl6NHCSl3a+BqiyLApehWAy60zjv9F1fxKZ6RKDgHLhBWhx8RwPm6Dw==
   dependencies:
     tslib "^2.4.0"
 
-"@yarnpkg/libzip@^3.0.0":
+"@yarnpkg/libzip@^3.0.1":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@yarnpkg/libzip/-/libzip-3.0.1.tgz#a1a08141a485ce9d93addae535974ac429c64474"
   integrity sha512-fiqRLk2fyd2r34/Qc7HlP8fKIo1CK5CZpLNObJwnbFmZQN2hVanovFlG++3oH3qYJymEmjPl5EGsygcEJZl4Pg==
@@ -2388,10 +2370,10 @@ aws4@1.12.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.12.0.tgz#ce1c9d143389679e253b314241ea9aa5cec980d3"
   integrity sha512-NmWvPnx0F1SfrQbYwOi7OeaNGokp9XhzNioJ/CSBs8Qa4vxug81mhJEAVZwxXuBmYB5KDRfMq/F3RR0BIU7sWg==
 
-azure-devops-node-api@12.3.0:
-  version "12.3.0"
-  resolved "https://registry.yarnpkg.com/azure-devops-node-api/-/azure-devops-node-api-12.3.0.tgz#bb2b31f8d4994a166dbd2bd38f9ddbf34c46bf4a"
-  integrity sha512-5HDhBFIXJxiFhcJ+A3hN87gwo92PrDNLJvcvRHjr+p7AsuUSF64yQU+M6wcBDczkIDVV7m+MrraKQ2tqUxSbCA==
+azure-devops-node-api@12.4.0:
+  version "12.4.0"
+  resolved "https://registry.yarnpkg.com/azure-devops-node-api/-/azure-devops-node-api-12.4.0.tgz#c5c4b7d18fa7f960b812aaab2c635516ef5835a3"
+  integrity sha512-ZrJlnoAOjliBYvO1wV9oa5Saa3h5tfRbvCSpwjqryag7bIeeY5Zl/zGiZBVD+75EumhtY5mOXNBzHvLf6JmdNQ==
   dependencies:
     tunnel "0.0.6"
     typed-rest-client "^1.8.4"
@@ -2421,10 +2403,10 @@ before-after-hook@^2.2.0:
   resolved "https://registry.yarnpkg.com/before-after-hook/-/before-after-hook-2.2.3.tgz#c51e809c81a4e354084422b9b26bad88249c517c"
   integrity sha512-NzUnlZexiaH/46WDhANlyR2bXRopNg4F/zuSA3OpZnllCUgRaOF2znDioDWrmbNVsuZk6l9pMquQB38cfBZwkQ==
 
-better-sqlite3@9.3.0:
-  version "9.3.0"
-  resolved "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-9.3.0.tgz#2a8aaad65fa0210a4df5e8a0bcbc9156f6138d56"
-  integrity sha512-ww73jVpQhRRdS9uMr761ixlkl4bWoXi8hMQlBGhoN6vPNlUHpIsNmw4pKN6kjknlt/wopdvXHvLk1W75BI+n0Q==
+better-sqlite3@9.4.0:
+  version "9.4.0"
+  resolved "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-9.4.0.tgz#f3e70ceab8e5950dd45516977c0ff7cf167f8455"
+  integrity sha512-5kynxekMxSjCMiFyUBLHggFcJkCmiZi6fUkiGz/B5GZOvdRWQJD0klqCx5/Y+bm2AKP7I/DHbSFx26AxjruWNg==
   dependencies:
     bindings "^1.5.0"
     prebuild-install "^7.1.1"
@@ -3422,10 +3404,10 @@ good-enough-parser@1.1.23:
     klona "2.0.6"
     moo "0.5.2"
 
-google-auth-library@9.6.1:
-  version "9.6.1"
-  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-9.6.1.tgz#f22c575383a7900c63de189e1a66b61e50ebda19"
-  integrity sha512-rPL44wV0yJnA11+ggxA348ylUY1o7mkcHLwlZNlLZsKROPLl7q3LgMU5nM65h1QpxhJu/shk2FLml7173XIthA==
+google-auth-library@9.6.2:
+  version "9.6.2"
+  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-9.6.2.tgz#c615b9186ee1871eab4703a9d07206c8c73d46a7"
+  integrity sha512-8G5i+uELrRE244PGnTc9UxiWZ2FMWD5jiIe9P2XSxCvXv/0ip/phjeHSE4bhJnLBdJb+Bu/Gj9Lr33TmDnbAiw==
   dependencies:
     base64-js "^1.3.0"
     ecdsa-sig-formatter "^1.0.11"
@@ -3614,10 +3596,10 @@ ieee754@^1.1.13:
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
 
-ignore@5.3.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.3.0.tgz#67418ae40d34d6999c95ff56016759c718c82f78"
-  integrity sha512-g7dmpshy+gD7mh88OC9NwSGTKoc3kyLAZQRU1mt53Aw/vnvfXnbC+F/7F7QoYVKbV+KNvJx8wArewKy1vXMtlg==
+ignore@5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.3.1.tgz#5073e554cd42c5b33b394375f538b8593e34d4ef"
+  integrity sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==
 
 immediate@~3.0.5:
   version "3.0.6"
@@ -4963,10 +4945,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.171.2:
-  version "37.171.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.171.2.tgz#7999044a7eb3aaf1b0eb3fdd58cad95ea39d3c63"
-  integrity sha512-9Cl2/ZArAlm+fRbTOIM+x6rcLyDEVm9em4NRoOp3BEwPleZBeSf5gOlyNRUvLDIgkgKt2NEnVsGHJnhD+nDglw==
+renovate@37.181.11:
+  version "37.181.11"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.181.11.tgz#8f01380b00307ca9d1f99be12341d37dbb77f0f1"
+  integrity sha512-BzF34nwn0L1TNsVHjlsWFaQNjIJmtyY3ztPW5UQ7exB40hghvmP3NGIoAFWSgKGfL5U0ATD6L+eMjc2ScI8Lpw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -4980,7 +4962,7 @@ renovate@37.171.2:
     "@opentelemetry/context-async-hooks" "1.21.0"
     "@opentelemetry/exporter-trace-otlp-http" "0.48.0"
     "@opentelemetry/instrumentation" "0.48.0"
-    "@opentelemetry/instrumentation-bunyan" "0.34.1"
+    "@opentelemetry/instrumentation-bunyan" "0.35.0"
     "@opentelemetry/instrumentation-http" "0.48.0"
     "@opentelemetry/resources" "1.21.0"
     "@opentelemetry/sdk-trace-base" "1.21.0"
@@ -4994,14 +4976,14 @@ renovate@37.171.2:
     "@types/better-sqlite3" "7.6.9"
     "@types/ms" "0.7.34"
     "@types/tmp" "0.2.6"
-    "@yarnpkg/core" "4.0.2"
+    "@yarnpkg/core" "4.0.3"
     "@yarnpkg/parsers" "3.0.0"
     agentkeepalive "4.5.0"
     aggregate-error "3.1.0"
     auth-header "1.0.0"
     aws4 "1.12.0"
-    azure-devops-node-api "12.3.0"
-    better-sqlite3 "9.3.0"
+    azure-devops-node-api "12.4.0"
+    better-sqlite3 "9.4.0"
     bunyan "1.8.15"
     cacache "18.0.2"
     cacheable-lookup "5.0.4"
@@ -5028,11 +5010,11 @@ renovate@37.171.2:
     glob "10.3.10"
     global-agent "3.0.0"
     good-enough-parser "1.1.23"
-    google-auth-library "9.6.1"
+    google-auth-library "9.6.2"
     got "11.8.6"
     graph-data-structure "3.5.0"
     handlebars "4.7.8"
-    ignore "5.3.0"
+    ignore "5.3.1"
     ini "4.1.1"
     js-yaml "4.1.0"
     json-dup-key-validator "1.0.3"

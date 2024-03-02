@@ -2411,10 +2411,10 @@ before-after-hook@^2.2.0:
   resolved "https://registry.yarnpkg.com/before-after-hook/-/before-after-hook-2.2.3.tgz#c51e809c81a4e354084422b9b26bad88249c517c"
   integrity sha512-NzUnlZexiaH/46WDhANlyR2bXRopNg4F/zuSA3OpZnllCUgRaOF2znDioDWrmbNVsuZk6l9pMquQB38cfBZwkQ==
 
-better-sqlite3@9.4.1:
-  version "9.4.1"
-  resolved "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-9.4.1.tgz#006bc6a899a69166c5fe89c9cff64509295d12b2"
-  integrity sha512-QpqiQeMI4WkE+dQ68zTMX5OzlPGc7lXIDP1iKUt4Omt9PdaVgzKYxHIJRIzt1E+RUBQoFmkip/IbvzyrxehAIg==
+better-sqlite3@9.4.3:
+  version "9.4.3"
+  resolved "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-9.4.3.tgz#7df39ba3273fbb7c0561cf913572547142868cc4"
+  integrity sha512-ud0bTmD9O3uWJGuXDltyj3R47Nz0OHX8iqPOT5PMspGqlu/qQFn+5S2eFBUCrySpavTjFXbi4EgrfVvPAHlImw==
   dependencies:
     bindings "^1.5.0"
     prebuild-install "^7.1.1"
@@ -4586,10 +4586,10 @@ onetime@^5.1.2:
   dependencies:
     mimic-fn "^2.1.0"
 
-openpgp@5.11.0:
-  version "5.11.0"
-  resolved "https://registry.yarnpkg.com/openpgp/-/openpgp-5.11.0.tgz#cec5b285d188148f7b5201b9aceb53850cc286a2"
-  integrity sha512-hytHsxIPtRhuh6uAmoBUThHSwHSX3imLu7x4453T+xkVqIw49rl22MRD4KQIAQdCDoVdouejzYgcuLmMA/2OAA==
+openpgp@5.11.1:
+  version "5.11.1"
+  resolved "https://registry.yarnpkg.com/openpgp/-/openpgp-5.11.1.tgz#97f3a1dfb3d3573a0a73fe2efb29e6b1f8fefb1c"
+  integrity sha512-TynUBPuaSI7dN0gP+A38CjNRLxkOkkptefNanalDQ71BFAKKm+dLbksymSW5bUrB7RcAneMySL/Y+r/TbLpOnQ==
   dependencies:
     asn1.js "^5.0.0"
 
@@ -4986,10 +4986,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.213.1:
-  version "37.213.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.213.1.tgz#69b065aba66de8b1600b96ed9758321fe5d102d3"
-  integrity sha512-Bhk6oRC0H9wMUAfoueDkq9x+RyfN6jtryZQ5sRVyuG9sAZ2tj8Pug0cpz10oCnkwqljNMrrM3fNvAyXu24Or+Q==
+renovate@37.222.3:
+  version "37.222.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.222.3.tgz#14455b5badf522a8c84a011d3c799be2a1eca347"
+  integrity sha512-uS46kjR8wr84alp/zQ6PoJLL73B30T02udn/NpWdvGXwTXzf118L409iabQBWlcDbC+SPEAW03sRIg8zHe2nyw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -5024,7 +5024,7 @@ renovate@37.213.1:
     auth-header "1.0.0"
     aws4 "1.12.0"
     azure-devops-node-api "12.4.0"
-    better-sqlite3 "9.4.1"
+    better-sqlite3 "9.4.3"
     bunyan "1.8.15"
     cacache "18.0.2"
     cacheable-lookup "5.0.4"
@@ -5072,7 +5072,7 @@ renovate@37.213.1:
     ms "2.1.3"
     nanoid "3.3.7"
     node-html-parser "6.1.12"
-    openpgp "5.11.0"
+    openpgp "5.11.1"
     p-all "3.0.0"
     p-map "4.0.0"
     p-queue "6.6.2"

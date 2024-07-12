@@ -1315,10 +1315,10 @@
     "@opentelemetry/resources" "1.25.1"
     "@opentelemetry/sdk-trace-base" "1.25.1"
 
-"@opentelemetry/instrumentation-bunyan@0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-bunyan/-/instrumentation-bunyan-0.39.0.tgz#191f69f42d87cc5f00b2e115fa721801f0586c1a"
-  integrity sha512-AQ845Wh5Yhd7S0argkCd1vrThNo4q/p6LJePC4OlFifPa9i5O2MzfLNh4mo8YWa0rYvcc+jbhodkGNa+1YJk/A==
+"@opentelemetry/instrumentation-bunyan@0.40.0":
+  version "0.40.0"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-bunyan/-/instrumentation-bunyan-0.40.0.tgz#9e67a37e0254173b6f6dd0a56dc55fb83e254857"
+  integrity sha512-aZ4cXaGWwj79ZXSYrgFVsrDlE4mmf2wfvP9bViwRc0j75A6eN6GaHYHqufFGMTCqASQn5pIjjP+Bx+PWTGiofw==
   dependencies:
     "@opentelemetry/api-logs" "^0.52.0"
     "@opentelemetry/instrumentation" "^0.52.0"
@@ -1569,10 +1569,10 @@
   resolved "https://registry.yarnpkg.com/@redis/bloom/-/bloom-1.2.0.tgz#d3fd6d3c0af3ef92f26767b56414a370c7b63b71"
   integrity sha512-HG2DFjYKbpNmVXsa0keLHp/3leGJz1mjh09f2RLGGLQZzSHpkmZWuwJbAvo3QcRY8p80m5+ZdXZdYOSBLlp7Cg==
 
-"@redis/client@1.5.16":
-  version "1.5.16"
-  resolved "https://registry.yarnpkg.com/@redis/client/-/client-1.5.16.tgz#1d5919077a06a4b935b0e4bef9e036eef1a10371"
-  integrity sha512-X1a3xQ5kEMvTib5fBrHKh6Y+pXbeKXqziYuxOUo1ojQNECg4M5Etd1qqyhMap+lFUOAh8S7UYevgJHOm4A+NOg==
+"@redis/client@1.5.17":
+  version "1.5.17"
+  resolved "https://registry.yarnpkg.com/@redis/client/-/client-1.5.17.tgz#44d179f2b5b542754d6f218bb352bac3ccf150eb"
+  integrity sha512-IPvU9A31qRCZ7lds/x+ksuK/UMndd0EASveAvCvEtFFKIZjZ+m/a4a0L7S28KEWoR5ka8526hlSghDo4Hrc2Hg==
   dependencies:
     cluster-key-slot "1.1.2"
     generic-pool "3.9.0"
@@ -5627,13 +5627,13 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
-redis@4.6.14:
-  version "4.6.14"
-  resolved "https://registry.yarnpkg.com/redis/-/redis-4.6.14.tgz#599e49b65816c56a6683f6b19dc374c8e786d091"
-  integrity sha512-GrNg/e33HtsQwNXL7kJT+iNFPSwE1IPmd7wzV3j4f2z0EYxZfZE7FVTmUysgAtqQQtg5NXF5SNLR9OdO/UHOfw==
+redis@4.6.15:
+  version "4.6.15"
+  resolved "https://registry.yarnpkg.com/redis/-/redis-4.6.15.tgz#b94599fbbd8279182b02f5bb34866c2a1556d71c"
+  integrity sha512-2NtuOpMW3tnYzBw6S8mbXSX7RPzvVFCA2wFJq9oErushO2UeBkxObk+uvo7gv7n0rhWeOj/IzrHO8TjcFlRSOg==
   dependencies:
     "@redis/bloom" "1.2.0"
-    "@redis/client" "1.5.16"
+    "@redis/client" "1.5.17"
     "@redis/graph" "1.1.1"
     "@redis/json" "1.0.6"
     "@redis/search" "1.1.6"
@@ -5686,10 +5686,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.425.3:
-  version "37.425.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.425.3.tgz#df147dbd2f1f2b2060459b0cca207d50a6c038e1"
-  integrity sha512-F4nsSnJhFmqj4nLjHnZoHVCGDSmfVjMM0akZ0oH1xvAXNB0gcPrSET694lV2HJ6j5B/dyDZLUhjlhYVLHBYuHw==
+renovate@37.431.0:
+  version "37.431.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.431.0.tgz#dfd19afeb26535710179a06114bc75514cdb7db7"
+  integrity sha512-anP4sByBnKMrxnYafN/16Ivq/t+xuPGA6GtnliOyi+3x2HFPwYq3qmp8msmXbRnYz312LxZQYTVKRhCnouNeRA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.606.0"
     "@aws-sdk/client-ec2" "3.606.0"
@@ -5703,7 +5703,7 @@ renovate@37.425.3:
     "@opentelemetry/context-async-hooks" "1.25.1"
     "@opentelemetry/exporter-trace-otlp-http" "0.52.1"
     "@opentelemetry/instrumentation" "0.52.1"
-    "@opentelemetry/instrumentation-bunyan" "0.39.0"
+    "@opentelemetry/instrumentation-bunyan" "0.40.0"
     "@opentelemetry/instrumentation-http" "0.52.1"
     "@opentelemetry/resources" "1.25.1"
     "@opentelemetry/sdk-trace-base" "1.25.1"
@@ -5777,7 +5777,7 @@ renovate@37.425.3:
     p-throttle "4.1.1"
     parse-link-header "2.0.0"
     prettier "3.3.2"
-    redis "4.6.14"
+    redis "4.6.15"
     remark "13.0.0"
     remark-github "10.1.0"
     safe-stable-stringify "2.4.3"

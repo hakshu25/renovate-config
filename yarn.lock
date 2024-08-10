@@ -2360,10 +2360,10 @@
   dependencies:
     "@types/node" "*"
 
-"@yarnpkg/core@4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/core/-/core-4.1.1.tgz#2a60094566ff9020d9f02cbc5bd563161fb4c920"
-  integrity sha512-Py26fODbsgcFdoq/iYEbqZPkIrjWcICMf/BuI7EDR6YjHmD+FQ4HyqfeanhvePsORCHNAwfqsnr1OqrfKZFrEA==
+"@yarnpkg/core@4.1.2":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/core/-/core-4.1.2.tgz#7cc7caa38b29ad0c6fd012aee52931cabd00d99c"
+  integrity sha512-2jcHRIJwjOOdl7mFysdz5FLxl4JWWJJEwesaKMRYmVwcqXolItX/gXdL3AjTD0umlBySccK9TulRD2/YL2Y0YQ==
   dependencies:
     "@arcanis/slice-ansi" "^1.1.1"
     "@types/semver" "^7.1.0"
@@ -2374,7 +2374,7 @@
     "@yarnpkg/shell" "^4.0.2"
     camelcase "^5.3.1"
     chalk "^3.0.0"
-    ci-info "^3.2.0"
+    ci-info "^4.0.0"
     clipanion "^4.0.0-rc.2"
     cross-spawn "7.0.3"
     diff "^5.1.0"
@@ -2849,10 +2849,10 @@ chownr@^2.0.0:
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-2.0.0.tgz#15bfbe53d2eab4cf70f18a8cd68ebe5b3cb1dece"
   integrity sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==
 
-ci-info@^3.2.0:
-  version "3.9.0"
-  resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-3.9.0.tgz#4279a62028a7b1f262f3473fc9605f5e218c59b4"
-  integrity sha512-NIxF55hv4nSqQswkAeiOi1r83xy8JldOFDTWiug55KBu9Jnblncd2U6ViHmYgHf01TPZS77NJBhBMKdWj9HQMQ==
+ci-info@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-4.0.0.tgz#65466f8b280fc019b9f50a5388115d17a63a44f2"
+  integrity sha512-TdHqgGf9odd8SXNuxtUBVx8Nv+qZOejE6qyqiy5NtbYYQOeFa6zmHkxlPzmaLxWWHsU6nJmB7AETdVPi+2NBUg==
 
 cjs-module-lexer@^1.2.2:
   version "1.3.1"
@@ -4800,6 +4800,13 @@ minimalistic-assert@^1.0.0:
   resolved "https://registry.yarnpkg.com/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz#2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
   integrity sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==
 
+minimatch@10.0.1, minimatch@^10.0.0:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-10.0.1.tgz#ce0521856b453c86e25f2c4c0d03e6ff7ddc440b"
+  integrity sha512-ethXTt3SGGR+95gudmqJ1eNhRO7eGEGIgYA9vnPatK4/etz2MEVDno5GMCibdMTuBMyElzIlgxMna3K94XDIDQ==
+  dependencies:
+    brace-expansion "^2.0.1"
+
 "minimatch@2 || 3":
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
@@ -4814,17 +4821,10 @@ minimatch@9.0.2:
   dependencies:
     brace-expansion "^2.0.1"
 
-minimatch@9.0.5, minimatch@^9.0.4:
+minimatch@^9.0.4:
   version "9.0.5"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-9.0.5.tgz#d74f9dd6b57d83d8e98cfb82133b03978bc929e5"
   integrity sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow==
-  dependencies:
-    brace-expansion "^2.0.1"
-
-minimatch@^10.0.0:
-  version "10.0.1"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-10.0.1.tgz#ce0521856b453c86e25f2c4c0d03e6ff7ddc440b"
-  integrity sha512-ethXTt3SGGR+95gudmqJ1eNhRO7eGEGIgYA9vnPatK4/etz2MEVDno5GMCibdMTuBMyElzIlgxMna3K94XDIDQ==
   dependencies:
     brace-expansion "^2.0.1"
 
@@ -5608,10 +5608,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@38.18.17:
-  version "38.18.17"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-38.18.17.tgz#32aa691050a78e87b12ee2979b75b25dfe404fb5"
-  integrity sha512-OOjYjiCsDFV62yMZe+eY9x+3BkpCP+5hwVOiXjwRg0Sbw+0rtomgssVSyLMaAKq9CX/7M2tSUJujLqnzYpu/Ow==
+renovate@38.24.0:
+  version "38.24.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-38.24.0.tgz#f23d490939455a39ff51c32aec659d30244c1759"
+  integrity sha512-LCeiUEHs/6wVKSrtSm5DicqQJq1fupYaKxVI/T9PmEe8vgl2j4uMnBUfIm7Hh0IlC+kNYZsFHGMv61SaxNJDgQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.621.0"
     "@aws-sdk/client-ec2" "3.621.0"
@@ -5637,7 +5637,7 @@ renovate@38.18.17:
     "@renovatebot/pep440" "3.0.20"
     "@renovatebot/ruby-semver" "3.0.23"
     "@sindresorhus/is" "4.6.0"
-    "@yarnpkg/core" "4.1.1"
+    "@yarnpkg/core" "4.1.2"
     "@yarnpkg/parsers" "3.0.2"
     agentkeepalive "4.5.0"
     aggregate-error "3.1.0"
@@ -5687,7 +5687,7 @@ renovate@38.18.17:
     luxon "3.4.4"
     markdown-it "14.1.0"
     markdown-table "2.0.0"
-    minimatch "9.0.5"
+    minimatch "10.0.1"
     moo "0.5.2"
     ms "2.1.3"
     nanoid "3.3.7"

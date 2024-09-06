@@ -1647,14 +1647,14 @@
   dependencies:
     "@seald-io/nedb" "^4.0.4"
 
-"@renovatebot/osv-offline@1.5.9":
-  version "1.5.9"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.5.9.tgz#6b1bdf3c19d236d792f186b6f7aa66be6389cddf"
-  integrity sha512-8C3XXtYu9QY+CEXzDrBnHNj6dvShvlKXkZAu40NoFQffAh2wbOz+owrThgaZuUHBcGX5IHYcyx5u++TCXlQHtA==
+"@renovatebot/osv-offline@1.5.10":
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.5.10.tgz#2220235dfe89c8f134d99ff2c680e5bd00b7d3c3"
+  integrity sha512-3Nu7bGVQGm0rJwGoHxZjc80cERtK7r25aii8aBwK2+JLAacC7xLju2WzuELt1TWSx/yt+QjA4ouWSC5/JnlmHw==
   dependencies:
     "@octokit/rest" "^20.1.1"
     "@renovatebot/osv-offline-db" "1.6.0"
-    adm-zip "~0.5.15"
+    adm-zip "~0.5.16"
     fs-extra "^11.2.0"
     got "^11.8.6"
     luxon "^3.5.0"
@@ -2447,7 +2447,7 @@ acorn@^8.8.2:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.12.1.tgz#71616bdccbe25e27a54439e0046e89ca76df2248"
   integrity sha512-tcpGyI9zbizT9JbV6oYE477V6mTlXvvi0T0G3SNIYE2apm/G5huBa1+K89VGeovbg+jycCrfhl3ADxErOuO6Jg==
 
-adm-zip@~0.5.15:
+adm-zip@~0.5.16:
   version "0.5.16"
   resolved "https://registry.yarnpkg.com/adm-zip/-/adm-zip-0.5.16.tgz#0b5e4c779f07dedea5805cdccb1147071d94a909"
   integrity sha512-TGw5yVi4saajsSEgz25grObGHEUaDrniwvA2qwSC060KfqGPdglhvPMA2lPIoxs3PQIItj2iag35fONcQqgUaQ==
@@ -2572,10 +2572,10 @@ available-typed-arrays@^1.0.7:
   dependencies:
     possible-typed-array-names "^1.0.0"
 
-aws4@1.13.1:
-  version "1.13.1"
-  resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.13.1.tgz#bb5f8b8a20739f6ae1caeaf7eea2c7913df8048e"
-  integrity sha512-u5w79Rd7SU4JaIlA/zFqG+gOiuq25q5VLyZ8E+ijJeILuTxVzZgp2CaGw/UTw6pXYN9XMO9yiqj/nEHmhTG5CA==
+aws4@1.13.2:
+  version "1.13.2"
+  resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.13.2.tgz#0aa167216965ac9474ccfa83892cfb6b3e1e52ef"
+  integrity sha512-lHe62zvbTB5eEABUVi/AwVh0ZKY9rMMDhmm+eeyuuUQbQ3+J+fONVQOZyj+DdrvD4BY33uYniyRJ4UJIaSKAfw==
 
 azure-devops-node-api@14.0.2:
   version "14.0.2"
@@ -3251,10 +3251,10 @@ email-addresses@5.0.0:
   resolved "https://registry.yarnpkg.com/email-addresses/-/email-addresses-5.0.0.tgz#7ae9e7f58eef7d5e3e2c2c2d3ea49b78dc854fa6"
   integrity sha512-4OIPYlA6JXqtVn8zpHpGiI7vE6EQOAg16aGnDMIAlZVinnoZ8208tW1hAbjWydgN/4PLTT9q+O1K6AH/vALJGw==
 
-emoji-regex@10.3.0:
-  version "10.3.0"
-  resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-10.3.0.tgz#76998b9268409eb3dae3de989254d456e70cfe23"
-  integrity sha512-QpLs9D9v9kArv4lfDEgg1X/gN5XLnf/A6l9cs8SPZLRZR3ZkY9+kwIQTxm+fsSej5UMYGE8fdoaZVIBlqG0XTw==
+emoji-regex@10.4.0:
+  version "10.4.0"
+  resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-10.4.0.tgz#03553afea80b3975749cfcb36f776ca268e413d4"
+  integrity sha512-EC+0oUMY1Rqm4O6LLrgjtYDvcVYTy7chDnM4Q7030tP4Kwj3u/pR6gP9ygnp2CJMK5Gq+9Q2oqmrFJAz01DXjw==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -5609,10 +5609,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@38.59.3:
-  version "38.59.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-38.59.3.tgz#b1c58281ddf87dc4b6f6757336f68e1ae6b054a9"
-  integrity sha512-MOh9Kjt2ibJngjixb8f9As0nHj8IdZwT0GEfYvjqNC7yxmzGkPyZZfQr6ysxJOwDYL4U19OxKgyn1exnCLTSLg==
+renovate@38.71.0:
+  version "38.71.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-38.71.0.tgz#350c35e7ab0f19c4cb14fd409ddda61a8d877206"
+  integrity sha512-ToyySaFc6vHwcvOy1AuSm/bM1x6lIX32UNq5TOtOKOOHOD9nGlL1YhvSnsu6hb/KfX4oUoAVRZ17oZoNYv8aaw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.637.0"
     "@aws-sdk/client-ec2" "3.641.0"
@@ -5635,7 +5635,7 @@ renovate@38.59.3:
     "@qnighy/marshal" "0.1.3"
     "@renovatebot/detect-tools" "1.1.0"
     "@renovatebot/kbpgp" "3.0.1"
-    "@renovatebot/osv-offline" "1.5.9"
+    "@renovatebot/osv-offline" "1.5.10"
     "@renovatebot/pep440" "3.0.20"
     "@renovatebot/ruby-semver" "3.0.23"
     "@sindresorhus/is" "4.6.0"
@@ -5645,7 +5645,7 @@ renovate@38.59.3:
     aggregate-error "3.1.0"
     async-mutex "0.5.0"
     auth-header "1.0.0"
-    aws4 "1.13.1"
+    aws4 "1.13.2"
     azure-devops-node-api "14.0.2"
     bunyan "1.8.15"
     cacache "18.0.4"
@@ -5662,7 +5662,7 @@ renovate@38.59.3:
     diff "5.2.0"
     editorconfig "2.0.0"
     email-addresses "5.0.0"
-    emoji-regex "10.3.0"
+    emoji-regex "10.4.0"
     emojibase "15.3.1"
     emojibase-regex "15.3.2"
     extract-zip "2.0.1"

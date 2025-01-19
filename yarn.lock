@@ -3909,10 +3909,10 @@ ieee754@^1.1.13:
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
 
-ignore@6.0.2:
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/ignore/-/ignore-6.0.2.tgz#77cccb72a55796af1b6d2f9eb14fa326d24f4283"
-  integrity sha512-InwqeHHN2XpumIkMvpl/DCJVrAHgCsG5+cn1XlnLWGwtZBm8QJfSusItfrwx81CTp5agNZqpKU2J/ccC5nGT4A==
+ignore@7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-7.0.0.tgz#52da780b009bd0845d1f9dd4d8ae6a7569ae73c4"
+  integrity sha512-lcX8PNQygAa22u/0BysEY8VhaFRzlOkvdlKczDPnJvrkJD1EuqzEky5VYYKM2iySIuaVIDv9N190DfSreSLw2A==
 
 immediate@~3.0.5:
   version "3.0.6"
@@ -5413,10 +5413,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@39.105.1:
-  version "39.105.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.105.1.tgz#4e6b052c3f15a4509af3b880c26e6931bc89fd4b"
-  integrity sha512-8+Py1Bpn6EKDgKe8tuOYD/ZmYJ0bQeMw1kF8ML5jKc8NiDChck1cE7Nb5UKerAbN62FHWtfEmvCEXnpPyI6D4g==
+renovate@39.117.2:
+  version "39.117.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.117.2.tgz#1ac1cc0b45d87f1042a87b4d4e9e8dd49761d544"
+  integrity sha512-CD9Iw5UyixNhEU8CqVyscSTlKCoZOqcPjL2HiaaAqg5jX/wn9CrqObEqvmZHtUuS9uhvW20YqWUBcGXHgVp1XQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.726.1"
     "@aws-sdk/client-ec2" "3.726.1"
@@ -5482,7 +5482,7 @@ renovate@39.105.1:
     got "11.8.6"
     graph-data-structure "4.3.0"
     handlebars "4.7.8"
-    ignore "6.0.2"
+    ignore "7.0.0"
     ini "5.0.0"
     json-dup-key-validator "1.0.3"
     json-stringify-pretty-compact "3.0.0"
